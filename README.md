@@ -1,27 +1,26 @@
-## Electron + Mongodb
+## Electron + Mongodb + React com typescript
 
-A desktop app to take notes using Electron.js, and Mongodb as database.
 
-![](./screenshot.png)
-
-### Requeriments
+### Pré-requisitos
 
 - Nodejs
 - Mongodb (local or remote installation)
+- Electron
+- React
 
 ### Environment variables
 
-```
-MONGODB_URI
-```
+-MONGODB_URI
 
-## Installation
+### Instalação
 
-```bash
-npm i
-npm start
-```
-#### npm yarn
+npm intall
 
-### iniciar
- yarn dev
+npm install --global yarn
+
+yarn
+
+yarn --version
+
+### Iniciar
+ -yarn start or yarn dev
