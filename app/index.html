@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Cadastro</title>
+  <link rel="stylesheet" href="ui/app.css">
+</head>
+
+<body>
+  <h1>Cadastro de Profissionais</h1>
+
+  <form id="taskForm" class="card">
+
+
+    <input type="text" id="name" placeholder="Nome" autofocus>
+    <textarea id="taskEmail" placeholder="E-mail" autofocus></textarea>
+    <textarea id="taskPhone" placeholder="Telefone" autofocus></textarea>
+    <textarea id="taskWork" placeholder="Profissão" autofocus></textarea>
+    <textarea id="taskDescription" rows="3" placeholder="Observações" autofocus></textarea>
+    
+
+    <button type="submit" class="btn btn-secondary">
+      Save
+    </button>
+  </form>
+
+  <!-- Task List -->
+  <ul id="taskList"></ul>
+
+  <script src="ui/app.js"></script>
+</body>
+
+</html>

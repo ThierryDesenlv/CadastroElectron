@@ -1,0 +1,8 @@
+# node
+node_modules
+
+# electron 
+dist
+
+# environment variables
+.env
